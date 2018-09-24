@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Webroot Password Manager</string>
+    <string name="username_placeholder">Username</string>
+    <string name="password_placeholder">Password</string>
+    <string name="password_confirm_placeholder">Confirm Password</string>
+    <string name="no_account_label">Don\'t have an account?</string>
+    <string name="create_account">Create Account</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_security_question">Create a Security Question</string>
+    <string name="security_question_answer">Answer to Security Question</string>
+</resources>
