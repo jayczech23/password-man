@@ -8,4 +8,13 @@
     <string name="forgot_password">Forgot Password?</string>
     <string name="create_security_question">Create a Security Question</string>
     <string name="security_question_answer">Answer to Security Question</string>
+    <string name="hello">Hello </string>
+    <string name="update_password">Update Password</string>
+    <string name="empty_string">""</string>
+    <string name="login">Login</string>
+
+    <string name="update_password_frag">Update Password</string>
+    <string name="old_password_frag">Old Password</string>
+    <string name="new_password_frag">New Password</string>
+    <string name="confirm_new_password_frag">Confirm New Password</string>
 </resources>

@@ -6,11 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!--<TextView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text=""/>-->
-
     <EditText
         android:id="@+id/username_edit"
         android:layout_width="250dp"
@@ -20,7 +15,8 @@
         android:hint="@string/username_placeholder"
         android:textSize="30sp"
         android:textAlignment="center"
-        android:inputType="text" />
+        android:inputType="text"
+        android:autofillHints="false"/>
 
     <EditText
         android:id="@+id/password_edit"
@@ -31,7 +27,8 @@
         android:hint="@string/password_placeholder"
         android:textSize="30sp"
         android:textAlignment="center"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:autofillHints="false"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -41,7 +38,9 @@
         android:text="@string/forgot_password"
         android:clickable="true"
         android:focusable="true"
-        android:textColor="@color/lightBlue"/>
+        android:textColor="@color/lightBlue"
+        android:enabled="false"
+        android:visibility="gone"/>
 
     <Button
         android:id="@+id/login_button"
@@ -49,7 +48,7 @@
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
-        android:text="Login"
+        android:text="@string/login"
         android:textStyle="bold" />
 
     <TextView
@@ -70,18 +69,5 @@
         android:focusable="true"
         android:textColor="@color/lightBlue"
         />
-
-    <!--<TextView-->
-        <!--android:id="@+id/txtTermsConditions"-->
-        <!--android:layout_width="180dp"-->
-        <!--android:layout_height="50dp"-->
-        <!--android:layout_marginLeft="20dp"-->
-        <!--android:layout_marginTop="10dp"-->
-        <!--android:onClick="onTermConditions"-->
-        <!--android:clickable="true"-->
-        <!--android:focusable="true"-->
-        <!--android:text="Terms and Conditions"-->
-        <!--android:textColor="@color/blue" />-->
-
 </LinearLayout>
 

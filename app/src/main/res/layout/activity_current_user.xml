@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/update_password_frag"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/old_password_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:hint="@string/old_password_frag"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:autofillHints="false"
+        />
+
+    <EditText
+        android:id="@+id/new_password_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="@string/new_password_frag"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:autofillHints="false"
+        />
+
+    <EditText
+        android:id="@+id/new_password_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:hint="@string/confirm_new_password_frag"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:autofillHints="false"
+        />
+
+    <Button
+        android:id="@+id/update_password_button"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/update_password"
+        android:textStyle="bold"
+        />
+</LinearLayout>
